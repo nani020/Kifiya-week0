@@ -16,7 +16,7 @@ To tackle MoonLight's challenge, I employed a structured approach, focusing on d
 ### **Techniques and Methods**  
 
 1. **Data Understanding and Cleaning**  
-   - The dataset consisted of **525,600 rows and 19 columns**, capturing diverse environmental measurements such as sunlight hours, temperature, and cloud cover.  
+   - Capturing diverse environmental measurements such as sunlight hours, temperature, and cloud cover.  
    - Missing values were checked, revealing that only the **comments column** contained `NaN` values. Since this column was not relevant to the analysis, it was dropped.  
    - Outliers were removed using **Z-scores**, ensuring that extreme values did not skew the analysis. This step improved the data quality and reliability of the results.
 
